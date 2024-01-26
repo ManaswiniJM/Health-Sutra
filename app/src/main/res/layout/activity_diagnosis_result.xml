@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bk4"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="678dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/txtdd"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDiseaseName"
+            app:layout_constraintVertical_bias="0.009"
+            tools:ignore="MissingConstraints,NotSibling"
+            tools:layout_editor_absoluteX="2dp">
+
+
+            <TextView
+                android:id="@+id/textViewDiseaseName"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:textAlignment="center"
+                android:textSize="23dp"
+                android:fontFamily="@font/playfair"
+                android:hint="Disease Name"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlCompat" />
+
+
+            <TextView
+                android:layout_width="306dp"
+                android:layout_height="43dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="SYMPTOMS:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.076"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.079" />
+
+            <TextView
+                android:id="@+id/txtsym"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:paddingRight="20dp"
+                android:fontFamily="@font/playfair"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.38"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.175" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="306dp"
+                android:layout_height="43dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Home Remedies:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.076"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.398" />
+
+            <TextView
+                android:id="@+id/txtrmd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:fontFamily="@font/playfair"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.533"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.581" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="306dp"
+                android:layout_height="43dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="Do's and Don'ts:"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.076"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.731" />
+
+            <TextView
+                android:id="@+id/txtdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="40dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/playfair"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.533"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    </LinearLayout>
+
+
+

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="344dp"
+        android:layout_height="291dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/aloe_vera" />
+
+    <TextView
+        android:id="@+id/plname"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/img1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-16dp"
+        android:text="Plant_Name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="421dp"
+        android:layout_height="361dp"
+        android:layout_above="@+id/plname"
+        android:layout_alignStart="@+id/plname"
+        android:layout_alignTop="@+id/plname"
+        android:layout_alignEnd="@+id/plname"
+        android:layout_marginStart="-43dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="-44dp"
+        android:layout_marginBottom="-480dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="150sp"
+        android:textAlignment="center">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+           >
+
+            <TableRow
+                android:background="@color/his">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robosl_reg"
+                    android:text="Sanskrit name :"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:background="@color/his"
+                android:layout_marginTop="5dp"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/sansname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/robosl_reg"
+                    android:hint="sans name"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/his">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robosl_reg"
+                    android:text="Vernacular name :"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:background="@color/his"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/vername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/robosl_reg"
+                    android:hint="vernacular name"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/his"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robosl_reg"
+                    android:text="Botanical name :"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <TableRow
+                android:background="@color/his"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/botname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/robosl_reg"
+                    android:hint="Botanical name"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/his">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robosl_reg"
+                    android:text="Family :"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:background="@color/his"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/famname"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/robosl_reg"
+                    android:hint="family"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/his">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robosl_reg"
+                    android:text="Part Used :"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:background="@color/his"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/part"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/robosl_reg"
+                    android:hint="part used"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/his">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robosl_reg"
+                    android:text="Therapeutic Uses :"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:background="@color/his"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tabdes"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/robosl_reg"
+                    android:textSize="18dp" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+</RelativeLayout>

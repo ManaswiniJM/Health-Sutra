@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.login1">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:logo="@color/cardview_dark_background"
+        android:roundIcon="@drawable/logo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".products.placed_order"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".display_diag"
+            android:exported="false" />
+        <activity
+            android:name=".products.displayProduct"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="" />
+
+        <activity
+            android:name=".splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user_or_admin"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registration_form"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".alertdi"
+            android:exported="false" />
+        <activity
+            android:name=".home_page"
+            android:exported="true" />
+        <activity
+            android:name=".forgot_password"
+            android:exported="true" />
+        <activity
+            android:name=".reminders"
+            android:exported="true" />
+        <activity
+            android:name=".history"
+            android:exported="true" /> <!-- android:theme="@style/Theme.Material3.Light.NoActionBar" -->
+        <activity
+            android:name=".kart"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".diagnosis"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <!--
+ <activity
+            android:name=".herb2"
+            android:exported="false" />
+        <activity
+            android:name=".herb_book"
+            android:exported="true" />
+        -->
+        <activity
+            android:name=".table2"
+            android:exported="false" />
+        <activity
+            android:name=".table"
+            android:exported="true" />
+        <activity
+            android:name=".change_pass"
+            android:exported="true" />
+        <activity
+            android:name=".AboutUS"
+            android:exported="false" />
+        <activity
+            android:name=".bmi"
+            android:exported="true" />
+        <activity
+            android:name=".admin_login"
+            android:exported="true" />
+        <activity
+            android:name=".ayurfit"
+            android:exported="true" />
+        <activity
+            android:name=".Clinic_Compass.MainClinic"
+            android:exported="true" />
+        <activity
+            android:name=".prakriti.StartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".prakriti.MainPrakriti"
+            android:exported="false" />
+        <activity
+            android:name=".prakriti.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".prakriti.DailyActivity"
+            android:exported="false" />
+        <activity android:name=".Activity_skin" />
+        <activity android:name=".admin_home_page" />
+        <activity
+            android:name=".display_orders"
+            android:exported="true">
+        </activity>
+
+
+        <activity android:name=".admin_diagnosis"
+            android:theme="@style/Theme.Material3.Light.NoActionBar"/>
+        <activity
+            android:name=".user_details"
+            android:exported="true" />
+        <activity android:name=".user_profile" />
+        <activity
+            android:name=".Activity_general"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_hair"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_digestive"
+            android:exported="true" />
+
+        <activity android:name=".Reminder_Activity" />
+
+        <activity android:name=".cart_frag"
+            android:exported="true"/>
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity android:name=".displayProductAdmin"/>
+
+        <activity android:name=".change_frag"/>
+
+        <activity android:name=".add_product" />
+
+        <activity android:name=".Activity_skin_adm"/>
+
+        <activity android:name=".display_skin_admin"/>
+
+        <activity android:name=".DiseaseAddSkin"/>
+
+        <activity android:name=".display_digestive_admin"/>
+
+    <activity android:name=".display_general_admin"/>
+
+        <activity android:name=".display_hair_admin"/>
+
+        <activity android:name=".DiseaseAddDigestive"/>
+
+        <activity android:name=".DiseaseAddHair"/>
+
+        <activity android:name=".DiseaseAddGeneral"/>
+
+        <activity android:name=".Activity_digestive_adm"/>
+
+        <activity android:name=".Activity_general_adm"/>
+
+        <activity android:name=".Activity_hair_adm"/>
+
+    </application>
+
+</manifest>

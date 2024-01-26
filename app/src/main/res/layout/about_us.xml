@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bk4"
+    tools:context=".AboutUS"
+    android:orientation="vertical">
+
+   <!-- <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">-->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="199dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hslogo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="196dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/robosl_reg"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="ABOUT US"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#1F6822"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+ <TextView
+     android:id="@+id/textView13"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:fontFamily="@font/playfair"
+     android:gravity="center"
+     android:lineSpacingExtra="5dp"
+     android:padding="15dp"
+     android:text="@string/abtus"
+     android:textColor="#3A630E"
+     android:textSize="14sp"
+     android:textStyle="bold"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/textView2"
+     app:layout_constraintVertical_bias="0.0" />
+ <TextView
+     android:id="@+id/textView75"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:fontFamily="@font/robosl_reg"
+     android:gravity="center"
+     android:text="Address"
+     android:textColor="#1F6822"
+     android:textSize="25dp"
+     android:textStyle="bold"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/textView13"
+     app:layout_constraintVertical_bias="0.255" />
+
+ <TextView
+     android:id="@+id/txtv"
+     android:layout_width="match_parent"
+     android:layout_height="57dp"
+     android:fontFamily="@font/playfair"
+     android:gravity="center"
+     android:text="HealthSutra Store, 7th cross,\n Ayur Nagar, Udupi"
+     android:textColor="#1F6822"
+     android:textSize="20sp"
+     android:textStyle="bold"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/textView14"
+     app:layout_constraintVertical_bias="0.0" />
+
+ <TextView
+     android:id="@+id/textView14"
+     android:layout_width="match_parent"
+     android:layout_height="29dp"
+     android:fontFamily="@font/robosl_reg"
+     android:gravity="center"
+     android:text="Contact Us"
+     android:textColor="#1F6822"
+     android:textSize="25dp"
+     android:textStyle="bold"
+     android:layout_marginTop="15dp"
+     app:layout_constraintBottom_toBottomOf="parent"
+     app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintHorizontal_bias="0.0"
+     app:layout_constraintStart_toStartOf="parent"
+     app:layout_constraintTop_toBottomOf="@+id/txtv"
+     app:layout_constraintVertical_bias="0.255" />
+
+ <TextView
+        android:layout_width="405dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/playfair"
+        android:gravity="center"
+     android:layout_gravity="center"
+        android:text="healthsutra20@gmail.com"
+        android:textColor="#1F6822"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+</LinearLayout>

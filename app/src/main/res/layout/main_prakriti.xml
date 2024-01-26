@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bk4"
+    tools:context=".prakriti.MainPrakriti">
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="89dp"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/questionprakriti"
+            android:layout_width="365dp"
+            android:layout_height="78dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/merriweather"
+            android:gravity="fill_vertical"
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.432"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.13"
+            tools:text="Question" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/optionsRadioGroup"
+        android:layout_width="383dp"
+        android:layout_height="236dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454">
+
+        <RadioButton
+            android:id="@+id/prakritiA"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:fontFamily="@font/robosl_reg"
+            android:textSize="17dp"
+            android:text="Option A"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <RadioButton
+            android:id="@+id/prakritiB"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:textSize="17dp"
+            android:fontFamily="@font/robosl_reg"
+            android:text="Option B"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="327dp" />
+
+        <RadioButton
+            android:id="@+id/prakritiC"
+            android:layout_width="364dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/robosl_reg"
+            android:text="Option C"
+            android:textSize="17dp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="412dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextprakriti"
+        android:layout_width="175dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#CFE4C3"
+        android:fontFamily="@font/robosl_reg"
+        android:textColor="@color/black"
+        android:foregroundTint="#6F4BC553"
+        android:textSize="23dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

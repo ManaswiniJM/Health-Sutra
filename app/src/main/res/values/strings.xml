@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HealthSutra
+    </string>
+    <string name="menu_open">Open</string>
+    <string name="menu_close">close</string>
+    <string name="history_string">History</string>
+    <string name="sub">Ayurveda Avatarana</string>
+
+
+    <string name="thisapp">This application is intended for educational purposes only.Person using the data within for medical purpose should not rely solely on the accuracy of the data herein."\n\n\t\t\t\t\t\t\t\t\t"The information provided on this app is not suitable for professional medical care.If you have any concerns about your health or medication , you should consult your specialist</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="note1">ब्राह्मणा हि यथाप्रोक्तमायुर्वेदं प्रजापतिः ।\n जग्राह निखिलेनादावश्विनौ तु पुनस्ततः ।।४।। \n
+अश्विभ्यां भगवाञ्छक्रः प्रतिपेदे ह केवलम् ।\n ऋषिप्रोक्तो भरद्वाजस्तस्माच्छक्रमुपागमत् ।।५।।</string>
+    <string name="note2">At first, Prajapati received Ayurveda in its entirety as propounded by Brahma, therefrom Aswins (received), from Aswins  lord Indra received it fully, that is why Bharadwāja, as requested by the sages, Went to Indra.</string>
+
+    <string name="note3">Daksha got the knowledge of Ayurveda by Brahma. From Daksha Ashwini Kumaras got the knowledge about this shastra\n and from them India learned Ayurveda. \nSo Baradwaja approached India as per the order of sages.</string>
+    <string name="note4">When diseases cropped up creating impediments in penance,
+        \n abstinence, study, celibacy, religious observances and life-span\n of living beings, the holy great sages, out of sympathy on creatures,\n assembled on one of the auspicious sides of the Himalayas.\nAmong them were Angirā, Jamadagni, Vasistha, Kaśyapa, Bhrgu,\n Atreya, Gautama, Sankhya, Pulastya,\n Nārada, Asita, Agastya, Vāmadeva,\n Markandeya, Aśvalāyana, Pārīksi, Bhiksu Atreya,\n Bharadwāja, Kapiñjala, Viswāmitra, Aśmarathya,\n Cyavana, The Bhargava (of Bhrgus Clan), Abhijit, Gargya, Sandilya, Kaunḍilya (nya). \nVärkṣi, Devala, Gälava, Sankṛtya, Baijavāpi, Kuśika, Bādarāyaṇa, Badisa, Saraloma, Käpya, Katyayana, Känkäyana, Kaikaseya, Dhaumya, Mārīca, Kasyapa, Sarkarākṣa, Hiranyakṣa, Lokākṣa, Paingi, Saunaka, Śākuneya, Maitreya and Maimatayani \nalong with the sages of the Vaikhanasa and Välakhilya orders and other great sages. \nThey all , sources of spiritual knowledge selfcontrol and restraint of mind, \nillumined with brilliance of penance, like fire having oblations, took their seats comfortably and held auspicious deliberations</string>
+
+    <string name="note5">Disease-free condition is the best source of virtue, wealth, gratification and emancipation.\nWhile diseases are destroyers of welfare and life itself.\n Now this has appeared as a great obstacle for human beings and what could be the means for their amelioration.\n Saying this they meditated on this. \nThen with their meditative vision they saw Indra as saviour.\n That god of gods is only able to tell the correct means of amelioration of diseases.</string>
+
+    <string name="abtus">Welcome to Health Sutra, your one-stop Ayurvedic app for holistic well-being. We are dedicated to providing you with a personalized and authentic Ayurvedic experience right at your fingertips. Our app offers a wide range of features, including insightful articles, expert tips, and personalized recommendations based on your unique constitution. Whether you\'re seeking natural remedies, lifestyle guidance, or simply looking to enhance your overall health, Health Sutra is here to guide you on your Ayurvedic journey.</string>
+
+</resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pg3"
+    tools:context=".prakriti.DailyActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+        android:orientation="vertical">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Follow these for a Healthy LifeStyle:"
+    android:textSize="27dp"
+    android:textStyle="bold"
+    android:fontFamily="@font/merriweather"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Get up at the Brahmi Muhurta
+(90 minutes before sunrise)"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Eliminate the excreta out"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.Danta Dhavana ( दंतधावन) Brushing the teeth."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Navana (नावन)A sternutatory.It should be done after medical advice"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Gandusha -(गण्डूष)Filling the mouth in the morning with oil or medicated water daily and holding for a few minutes without moving it inside the oral cavity(should be done after medical advice"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Abhyanga (अभ्यङ्गः) - Daily application of oil to body"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.Vyayama(व्यायाम) - Exercise"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.Snana (स्नान ) - Bathing"
+        android:textSize="20dp"
+            android:textStyle="bold"
+        android:fontFamily="@font/playfair"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.Anulepana (अनुलेपन)-It means external application of medicated paste over body part "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 10.Rakshanaga vidhi (रक्षोग्ना विधि)- protective measures"
+        android:textSize="20dp"
+            android:textStyle="bold"
+        android:fontFamily="@font/playfair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11.Pada prakashalana (पद प्रकाशना)- washing feet "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12. Vastra dharana(वस्त्रं धारयन्) - wearing clothes"
+        android:textSize="20dp"
+            android:textStyle="bold"
+        android:fontFamily="@font/playfair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13. Mala dharana माल धरणा)- wearing garlands "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14.Padatra dhavana (पदात्रा धावन) - wearing footwear "
+        android:textSize="20dp"
+            android:textStyle="bold"
+        android:fontFamily="@font/playfair"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15. Dhatra dhavana(चत्र धावन) - having umbrella"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/playfair"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16. In सायंकाल one should avoid \n
+            -sleeping\n
+           - having food\n
+           -reading\n
+           -walking\nRatri Bhojanam(रात्रि भोजनम्)‌- Having food at night\nHasta prapala(हस्त प्रपालन)-Washing your hands\nDanta dhavana(दन्तधावन)-Washing teeth \nMukha dhavana(मुख धावन)-Washing face\nShatapada gamana(शतपद गमना)-Walking \nNidra(निद्रा) -Sleeping"
+        android:textSize="20dp"
+            android:textStyle="bold"
+        android:fontFamily="@font/playfair"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

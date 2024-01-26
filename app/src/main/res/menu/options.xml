@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/profile"
+        android:title=" User Profile"
+        android:icon="@drawable/ic_profile"
+        app:showAsAction="ifRoom">
+<menu>
+    <item android:id="@+id/userList"
+        android:title="Profile"/>
+
+    <item android:id="@+id/abtus"
+        android:title="About Us"/>
+
+    <item android:id="@+id/changepass"
+        android:title="Change Password"/>
+
+    <item android:id="@+id/loggoff"
+        android:title="Log Out"/>
+
+
+</menu>
+    </item>
+
+</menu>
