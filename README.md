@@ -53,11 +53,6 @@ Profile:-
 
 ![image](https://github.com/ManaswiniJM/Health-Sutra/assets/157780109/bd76b612-866d-4120-910c-c0e1a5053629)
 
-
-Change Password:-
-
-![image](https://github.com/ManaswiniJM/Health-Sutra/assets/157780109/f0b30dbb-6c32-4ced-bdaa-fafcd5940393)
-
 Diagnosis:-
 
 ![image](https://github.com/ManaswiniJM/Health-Sutra/assets/157780109/6e8b6cca-fefa-4d4a-9c2e-f88baa333d18)
